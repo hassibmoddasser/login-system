@@ -1,0 +1,19 @@
+{
+  "name": "login-system",
+  "version": "1.0.0",
+  "description": "A simple login system in PHP using mysqli extension",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hassibmoddasser/login-system.git"
+  },
+  "author": "hassibmoddasser",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hassibmoddasser/login-system/issues"
+  },
+  "homepage": "https://github.com/hassibmoddasser/login-system#readme"
+}

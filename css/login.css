@@ -1,0 +1,38 @@
+body {
+    background: url('../img/office.jpeg');
+    background-size: cover;
+}
+
+.form-control {
+    border-radius: 0px;
+    opacity: 0.8;
+    height: 35px;
+    font-size: 14px;
+}
+
+.btn {
+    font-size: 14px !important;
+}
+
+.login-container {
+    margin-top: 150px;
+}
+
+.btn-login {
+    border-radius: 0px;
+    width: 30%;
+}
+
+.btn-register {
+    border-radius: 0px;
+}
+
+.btn-register a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.login-form {
+    padding: 45px 40px 15px 40px;
+    background: rgba(0, 0, 0, 0.2);
+}
