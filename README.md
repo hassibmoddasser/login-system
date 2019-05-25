@@ -36,10 +36,3 @@ CREATE TABLE `users`(
 
 - User authentication
 - User registration
-
-## Screenshots
-
-![Login Form](img/login-form.png)
-![Homepage](img/home.png)
-![Registration Form](img/registration-form.png)
-![Registered Users](img/user-list.png)
