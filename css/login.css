@@ -1,38 +1,53 @@
 body {
-    background: url('../img/office.jpeg');
-    background-size: cover;
+  background-color: rgb(243, 241, 241);
+}
+
+.login-container,
+.register-container {
+  margin-top: 50px;
+}
+
+.login-form,
+.register-form {
+  padding: 50px;
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(201, 201, 201);
+  border-radius: 5px;
 }
 
 .form-control {
-    border-radius: 0px;
-    opacity: 0.8;
-    height: 35px;
-    font-size: 14px;
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 25px 15px;
+}
+
+.password-info {
+  font-size: 12px;
 }
 
 .btn {
-    font-size: 14px !important;
-}
-
-.login-container {
-    margin-top: 150px;
+  font-size: 14px !important;
+  border-radius: 5px;
 }
 
 .btn-login {
-    border-radius: 0px;
-    width: 30%;
+  background-color: rgb(165, 27, 68);
+  border-color: rgb(165, 27, 68);
+  padding: 10px 10px;
+}
+
+.btn-login:hover,
+.btn-login:active {
+  background-color: rgb(131, 23, 55) !important;
+  border-color: rgb(131, 23, 55) !important;
 }
 
 .btn-register {
-    border-radius: 0px;
+  border-radius: 5px;
 }
 
-.btn-register a {
-    text-decoration: none;
-    color: #fff;
-}
-
-.login-form {
-    padding: 45px 40px 15px 40px;
-    background: rgba(0, 0, 0, 0.2);
+.register-link,
+.register-link:hover {
+  text-decoration: none;
+  font-size: 14px;
 }
