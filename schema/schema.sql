@@ -1,0 +1,9 @@
+CREATE DATABASE `login_mysqli` CHARACTER SET 'utf8' COLLATE 'utf8_general_ci';
+
+CREATE TABLE `users`(
+	`id` INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+	`first_name` VARCHAR(64) NOT NULL,
+	`last_name` VARCHAR(64) NOT NULL,
+	`user_name` VARCHAR(128) NOT NULL UNIQUE,
+	`password` VARCHAR(255) NOT NULL
+);
