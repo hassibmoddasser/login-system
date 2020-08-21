@@ -1,6 +1,6 @@
 # Login System
 
-A simple login system in PHP using mysqli extension
+A simple login system implemented using mysqli extension
 
 ## App configurations
 
