@@ -1,3 +1,11 @@
+body {
+  background-color: rgb(243, 241, 241);
+}
+
+.jumbotron {
+  background-color: rgb(243, 241, 241);
+}
+
 .custom-nav {
   background-color: rgb(165, 27, 68) !important;
   padding: 20px;
