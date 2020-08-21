@@ -18,6 +18,8 @@ if (isset($_POST['submit'])) {
     } else {
       header('Location: ' . URL_ROOT . 'login.php?err=true');
     }
+  } else {
+    header('Location: ' . URL_ROOT . 'login.php?err=true');
   }
 }
 ?>
@@ -36,7 +38,7 @@ if (isset($_POST['submit'])) {
   <div class="container login-container">
     <?php if (isset($_GET['err'])): ?>
       <div class="row">
-        <div class="col-md-4 m-auto text-center">
+        <div class="col-md-4 m-auto text-center p-0">
           <div class="alert alert-danger">Incorrect Username or Password! Please try again!</div>
         </div>
       </div>
@@ -55,7 +57,7 @@ if (isset($_POST['submit'])) {
           </div>
           <div class="form-group">
             <input type="password" class="form-control" name="password" placeholder="Password" required>
-            <span class="text-muted password-info">Make sure you do not save your password in browser due to security reasons.</span>
+            <span class="text-muted password-info">Make sure you don't save your password in browser due to security reasons!</span>
           </div>
           <div class="form-group text-right mt-4 mb-0">
             <input type="submit" class="btn btn-primary btn-block mb-2 btn-login" name="submit" value="Sign In">
