@@ -3,3 +3,11 @@
   padding: 20px;
 }
 
+.navbar-brand {
+  font-size: 18px;
+}
+
+.nav-item .nav-link {
+  font-size: 14px;
+}
+

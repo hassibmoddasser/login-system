@@ -16,7 +16,7 @@
     </ul>
     <ul class="navbar-nav ml-auto">
       <li class="nav-item">
-        <a class="nav-link">Welcome <b><?= $_SESSION['full_name'] ?></b></a>
+        <a class="nav-link">Welcome <b><?= $_SESSION['first_name'] ?></b></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="<?= URL_ROOT . 'logout.php' ?>">Logout</a>
