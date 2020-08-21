@@ -35,7 +35,7 @@ if (isset($_POST['submit'])) {
 
       <div class="row">
         <div class="col-md-4 m-auto register-form">
-          <form action="register.php" method="POST" autocomplete="false">
+          <form action="register.php" method="POST" autocomplete="off">
             <div class="form-group">
               <input type="text" class="form-control" placeholder="First name" name="first_name" minlength="3" autofocus required>
             </div>

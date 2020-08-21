@@ -36,7 +36,7 @@ if (isset($_POST['submit'])) {
   <div class="container login-container">
     <?php if (isset($_GET['err'])): ?>
       <div class="row">
-        <div class="col-md-5 m-auto text-center">
+        <div class="col-md-4 m-auto text-center">
           <div class="alert alert-danger">Incorrect Username or Password! Please try again!</div>
         </div>
       </div>
@@ -49,7 +49,7 @@ if (isset($_POST['submit'])) {
 
     <div class="row">
       <div class="col-md-4 m-auto login-form">
-        <form action="login.php" method="POST" autocomplete="false">
+        <form action="login.php" method="POST" autocomplete="off">
           <div class="form-group">
             <input type="text" class="form-control" name="user_name" placeholder="Username" required autofocus>
           </div>
