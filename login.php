@@ -12,7 +12,8 @@ if (isset($_POST['submit'])) {
     $user = mysqli_fetch_assoc($result);
     
     if (password_verify($password, $user['password'])) {
-      $_SESSION['full_name'] = $user['first_name'] . ' ' . $user['last_name'];
+      $_SESSION['first_name'] = $user['first_name'];
+      $_SESSION['last_name'] = $user['last_name'];
       $_SESSION['login_status'] = true;
       header('Location: ' . URL_ROOT . 'index.php');
     } else {
