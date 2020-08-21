@@ -19,3 +19,15 @@ body {
   font-size: 14px;
 }
 
+.custom-btn {
+  background-color: rgb(165, 27, 68);
+  padding: 10px 30px;
+  border-color: rgb(165, 27, 68);
+  border-radius: 5px;
+}
+
+.custom-btn:hover,
+.custom-btn:active {
+  background-color: rgb(131, 23, 55) !important;
+  border-color: rgb(131, 23, 55) !important;
+}
