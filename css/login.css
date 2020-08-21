@@ -21,6 +21,10 @@ body {
   padding: 25px 15px;
 }
 
+.alert {
+  font-size: 14px;
+}
+
 .password-info {
   font-size: 12px;
 }
