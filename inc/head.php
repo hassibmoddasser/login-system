@@ -16,6 +16,10 @@ if (!isset($_SESSION['login_status'])) {
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title><?= APP_NAME ?></title>
 
+        <!-- Favicon -->
+        <link rel="icon" type="image/png" href="img/favicon.png">
+
+        <!-- CSS Links -->
         <link rel="stylesheet" href="css/bootstrap.min.css">
     </head>
     <body>
