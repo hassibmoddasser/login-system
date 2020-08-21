@@ -32,7 +32,14 @@ CREATE TABLE `users`(
 
 ## Change Log
 
-### **Ver 1.0.0**
+### Version 1.0.0
 
 - User authentication
 - User registration
+
+### Version 1.1.0
+
+- Login alert bugs fixed
+- Primary color changed
+- 'Login' and 'Register' style updates
+- Theme scale is changed
