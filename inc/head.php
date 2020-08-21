@@ -21,5 +21,6 @@ if (!isset($_SESSION['login_status'])) {
 
   <!-- CSS Links -->
   <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/app.css">
 </head>
 <body>
