@@ -12,15 +12,15 @@ $result = mysqli_query($con, "SELECT * FROM `users`");
 <div class="container">
   <div class="row">
     <div class="col-md-8 m-auto">
-      <h1 class="text-center mt-5">Registered Users</h1>
+      <h1 class="h2 text-center mt-5 mb-4">Registered Users</h1>
       <div class="table-responsive">
-        <table class="table table-bordered table-striped table-hover text-center">
+        <table class="table table-bordered table-sm table-striped table-hover text-center">
           <thead>
             <tr>
-                <th>No.</th>
-                <th>Full name</th>
-                <th>User name</th>
-                <th>Action</th>
+              <th>No.</th>
+              <th>Full name</th>
+              <th>User name</th>
+              <th>Action</th>
             </tr>
           </thead>
           <tbody>
@@ -31,7 +31,7 @@ $result = mysqli_query($con, "SELECT * FROM `users`");
               <td><?= $row['user_name'] ?></td>
               <td>
                 <div class="btn-group">
-                  <button class="btn btn-primary btn-sm">Edit</button>
+                  <button class="btn btn-secondary btn-sm">Edit</button>
                   <button class="btn btn-danger btn-sm">Delete</button>
                 </div>
               </td>

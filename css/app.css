@@ -19,6 +19,14 @@ body {
   font-size: 14px;
 }
 
+.table {
+  font-size: 14px;
+}
+
+.table .btn {
+  font-size: 12px;
+}
+
 .custom-btn {
   background-color: rgb(165, 27, 68);
   padding: 10px 30px;
