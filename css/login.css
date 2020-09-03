@@ -1,10 +1,9 @@
 body {
   background-color: rgb(243, 241, 241);
-}
-
-.login-container,
-.register-container {
-  margin-top: 50px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .login-form,
